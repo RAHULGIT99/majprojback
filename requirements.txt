@@ -1,8 +1,8 @@
 ﻿# --- Core FastAPI Web App ---
-fastapi==0.115.5
-uvicorn==0.32.1
-python-dotenv==1.0.1
-httpx==0.28.1
+fastapi
+uvicorn
+python-dotenv
+httpx
 requests
 
 # --- Authentication ---
@@ -19,24 +19,24 @@ playwright
 beautifulsoup4
 
 # --- PDF Document Processing ---
-langchain-core==0.3.72
-langchain_community==0.3.27
-pypdf==5.9.0
+langchain-core
+langchain_community
+pypdf
 
 # --- LangChain RAG Components ---
-langchain-groq==0.3.6
+langchain-groq
 langchain-pinecone
 
 # --- Pinecone Vector DB ---
-pinecone==7.3.0
+pinecone
 
 # --- Embeddings & Tokenization ---
-tiktoken==0.9.0
-sentence-transformers==5.0.0
+tiktoken
+sentence-transformers
 
 # --- Validation & Settings ---
-pydantic==2.9.2
-pydantic-settings==2.8.1
+pydantic
+pydantic-settings
 
 # --- Visualization ---
 matplotlib
